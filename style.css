@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: 'Poppins', Helvetica;
     color: #ffffff;
+    overflow-x: hidden;
+
 }
 
 
@@ -26,12 +28,13 @@ body::-webkit-scrollbar-thumb{
 .flex-container{
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 100px;
     width: 40%;
 }
 
 .flex-container__title{
     font-size: 100px;
+    line-height: 1.5;
 }
 
 .flex-container__p{
@@ -58,4 +61,20 @@ body::-webkit-scrollbar-thumb{
 .btn--trans:hover{
     background-color: #23cf70;
     color: #ffffff;
+}
+
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    left: 60%;
+    top: 200px;  
+    margin: -60px;
+
+}
+
+.img-container img{
+    
+    width: 600px;
 }
