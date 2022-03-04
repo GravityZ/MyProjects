@@ -47,3 +47,15 @@ body::-webkit-scrollbar-thumb{
     border-radius: 16.4px;
     text-align: center;
 }
+
+.btn--trans{
+    background-color:transparent ;
+    border: 2px solid #23cf70;
+    color: #23cf70;
+    transition: all .4s ease-out;
+}
+
+.btn--trans:hover{
+    background-color: #23cf70;
+    color: #ffffff;
+}
